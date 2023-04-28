@@ -1,4 +1,4 @@
-@use '../styles/utils/media-queries'; 
+@use '../styles/utils/media-queries';
 
 .map {
   align-items: center;
@@ -13,7 +13,7 @@
       padding: 3rem 3rem 2rem;
     }
 
-    > p {
+    >p {
       color: var(--color-gray-dark);
       padding-top: 1rem;
     }
@@ -27,11 +27,11 @@
     @include media-queries.respond_to(mobile-large-and-larger) {
       height: 75vh;
       width: calc(100% - 8rem);
-    }  
+    }
 
     @include media-queries.respond_to(desktop) {
       width: 95%;
-    }  
+    }
   }
 
   &__home-back-link {

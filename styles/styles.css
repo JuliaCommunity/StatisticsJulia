@@ -4,35 +4,35 @@ nav {
     align-items: center;
     padding: 1rem;
     background-color: #f0f0f0;
-  }
-  
-  ul {
+}
+
+ul {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
-  }
-  
-  li {
+}
+
+li {
     margin-left: 1rem;
-  }
-  
-  a {
+}
+
+a {
     color: #333;
     text-decoration: none;
-  }
-  
-  a:hover {
+}
+
+a:hover {
     text-decoration: underline;
-  }
+}
 
 body {
-margin: 0;
-font-family: Arial, sans-serif;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
 main {
-/* max-width: ; */
-margin: 0 auto;
-padding: 2rem;
+    /* max-width: ; */
+    margin: 0 auto;
+    padding: 2rem;
 }

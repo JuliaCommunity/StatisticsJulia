@@ -1,43 +1,50 @@
 // Mobile first media queries
 @mixin respond_to($media) {
-    @if $media == mobile-small-and-larger {
-      @media only screen and (min-width: 480px) {
-        @content;
-      }
+    @if $media ==mobile-small-and-larger {
+        @media only screen and (min-width: 480px) {
+            @content;
+        }
     }
-    @if $media == mobile-medium-and-larger {
-      @media only screen and (min-width: 580px) {
-        @content;
-      }
+
+    @if $media ==mobile-medium-and-larger {
+        @media only screen and (min-width: 580px) {
+            @content;
+        }
     }
-    @if $media == mobile-large-and-larger {
-      @media only screen and (min-width: 768px) {
-        @content;
-      }
+
+    @if $media ==mobile-large-and-larger {
+        @media only screen and (min-width: 768px) {
+            @content;
+        }
     }
-    @if $media == tablet-and-larger {
-      @media only screen and (min-width: 992px) {
-        @content;
-      }
+
+    @if $media ==tablet-and-larger {
+        @media only screen and (min-width: 992px) {
+            @content;
+        }
     }
-    @if $media == tablet-large-and-larger {
-      @media only screen and (min-width: 1024px) {
-        @content;
-      }
+
+    @if $media ==tablet-large-and-larger {
+        @media only screen and (min-width: 1024px) {
+            @content;
+        }
     }
-    @if $media == desktop {
-      @media only screen and (min-width: 1200px) {
-        @content;
-      }
+
+    @if $media ==desktop {
+        @media only screen and (min-width: 1200px) {
+            @content;
+        }
     }
-    @if $media == desktop-medium {
-      @media only screen and (min-width: 1390px) {
-        @content;
-      }
+
+    @if $media ==desktop-medium {
+        @media only screen and (min-width: 1390px) {
+            @content;
+        }
     }
-    @if $media == desktop-largest {
-      @media only screen and (min-width: 1575px) {
-        @content;
-      }
+
+    @if $media ==desktop-largest {
+        @media only screen and (min-width: 1575px) {
+            @content;
+        }
     }
-  }
+}
