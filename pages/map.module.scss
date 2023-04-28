@@ -1,0 +1,41 @@
+@use '../styles/utils/media-queries'; 
+
+.map {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    padding: 2rem;
+    text-align: center;
+
+    @include media-queries.respond_to(tablet-and-larger) {
+      padding: 3rem 3rem 2rem;
+    }
+
+    > p {
+      color: var(--color-gray-dark);
+      padding-top: 1rem;
+    }
+  }
+
+  &__container {
+    height: 50vh;
+    margin: auto;
+    width: calc(100% - 4rem);
+
+    @include media-queries.respond_to(mobile-large-and-larger) {
+      height: 75vh;
+      width: calc(100% - 8rem);
+    }  
+
+    @include media-queries.respond_to(desktop) {
+      width: 95%;
+    }  
+  }
+
+  &__home-back-link {
+    padding: 2rem;
+    text-align: center;
+  }
+}
