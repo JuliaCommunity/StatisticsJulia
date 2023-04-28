@@ -1,6 +1,6 @@
 import Navbar from "./navbar";
 
-function Layout({ children }) {
+function Layout({children} : { children:any }) {
     return (
         <div>
             <Navbar />

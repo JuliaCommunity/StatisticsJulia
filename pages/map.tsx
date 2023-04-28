@@ -5,7 +5,7 @@ import Layout from './layout';
 import React, { useEffect, useRef } from 'react';
 import styles from './map.module.scss';
 import Head from 'next/head';
-import { markers, markers1 } from './markers';
+import { markers, markers1 } from './api/markers';
 
 const Map: NextPage = () => {
     // used any for now because setting <string | HTMLElement>(null) throws error

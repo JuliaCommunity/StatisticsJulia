@@ -1,4 +1,4 @@
-import { Marker, Marker1 } from '../types/marker';
+import { Marker, Marker1 } from '../../types/marker';
 
 export const markers1: Marker1[] = [
     {
