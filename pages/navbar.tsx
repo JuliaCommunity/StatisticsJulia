@@ -10,8 +10,8 @@ function Navbar() {
                     </Link>
                 </li>
                 <li>
-                    <Link href="/map">
-                        Map
+                    <Link href="/stats">
+                        Statistics
                     </Link>
                 </li>
                 <li>

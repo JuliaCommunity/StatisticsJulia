@@ -4,9 +4,11 @@ import Layout from "./layout"; // layout applied everywhere
 function HomePage() {
   return (
     <Layout>
-      <h1>Welcome to Stats Julia webiste!</h1>
-      <p>You might be interested in looking at the map atm because thats where a lot of information can be plotted eventually.</p>
-      <p> Give me ideas on how to best do this!</p>
+      <h1>  Welcome to Statistics Julia website!</h1>
+      <ol>
+        <li> - Approximate number of unique Julia users: over 1.25 million</li>
+        <li>- Package Server request success rate:92% and cache miss rate:0.6%</li>
+      </ol>
     </Layout>
   );
 }
